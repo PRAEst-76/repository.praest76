@@ -1,0 +1,6 @@
+[submodule "repo/script.batocerawidget"]
+	path = repo/script.batocerawidget
+	url = https://github.com/PRAEst-76/script.batocerawidget
+[submodule "repo/screensaver.kaster"]
+	path = repo/screensaver.kaster
+	url = https://github.com/PRAEst-76/screensaver.kaster
