@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.praest76" name="PRAEst76's Kodi repository" version="0.1" provider-name="praest-76">
+<addon id="repository.praest76" name="PRAEst76's Kodi repository" version="0.2" provider-name="praest-76">
     <extension point="xbmc.addon.repository" name="PRAEst76's Kodi repository">
         <dir>
 		<info compressed="false">https://raw.githubusercontent.com/PRAEst-76/repository.praest76/master/repo/zips/addons.xml</info>
@@ -9,11 +9,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>PRAEst76's Kodi repository</summary>
-        <description>Repository for Kodi addons</description>
-        <disclaimer></disclaimer>
+        <description>Various kodi addons the developer has developed or updated from other developers etc. Mainly of personal interest.</description>
+        <disclaimer>The developer is a hobbyist with no idea what they are doing. They are not responsible for any damage or injury caused by the contents of this repo, associated metadata or indeed anything.</disclaimer>
         <platform>all</platform>
         <assets>
-            <icon>icon.png</icon>
+            <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>

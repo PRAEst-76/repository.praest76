@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.praest76" name="PRAEst76's Kodi repository" version="0.1" provider-name="praest-76">
+<addons><addon id="repository.praest76" name="PRAEst76's Kodi repository" version="0.2" provider-name="praest-76">
     <extension point="xbmc.addon.repository" name="PRAEst76's Kodi repository">
         <dir>
 		<info compressed="false">https://raw.githubusercontent.com/PRAEst-76/repository.praest76/master/repo/zips/addons.xml</info>
@@ -9,11 +9,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>PRAEst76's Kodi repository</summary>
-        <description>Repository for Kodi addons</description>
-        <disclaimer />
+        <description>Various kodi addons the developer has developed or updated from other developers etc. Mainly of personal interest.</description>
+        <disclaimer>The developer is a hobbyist with no idea what they are doing. They are not responsible for any damage or injury caused by the contents of this repo, associated metadata or indeed anything.</disclaimer>
         <platform>all</platform>
         <assets>
-            <icon>icon.png</icon>
+            <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
@@ -52,13 +52,13 @@
 			<screenshot>resources/images/screenshot-4.png</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="script.batocera" name="Batocera Games" version="0.2.1" provider-name="PRAEst76">
+</addon><addon id="script.batocera" name="Batocera Games" version="0.3.1" provider-name="PRAEst76">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         
-        <provides>video</provides>
+        <provides>video game</provides>
     </extension>
     
     
@@ -69,16 +69,21 @@
         <language>en</language>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
         <source>https://github.com/PRAEst-76/script.batocerawidget</source>
-        <disclaimer>This addon only works if used ontop of an EmulationStation-based distro like Batocera or RetroPie. May work with other ES-based setups, but no guarantee is given.</disclaimer>
+        <disclaimer>This addon only works if used ontop of an EmulationStation-based distro like Batocera or RetroPie. May work with other ES-based setups such as ES-DE or RetroBat, but no guarantee is given.</disclaimer>
         <news>
+            v0.3.1 (2025-02-11)
+            - Added wheel as clearart
+
             v0.2.1 (2024-11-01)
             - Separate widgets for favorites and latest added games.
             - Added support for RetroPie.
             - Implemented custom romdir.
             - Implemented custom run command.
             - Added option in settings to force a rescan.
+
             v0.1.1 (2024-10-27)
             - Mostly works. Added support for RetroPie as well as Batocera. May work for other EmulationStation-based systems.</news>
+
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
