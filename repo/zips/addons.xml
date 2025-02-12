@@ -52,7 +52,7 @@
 			<screenshot>resources/images/screenshot-4.png</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="script.batocera" name="Batocera Games" version="0.3.1" provider-name="PRAEst76">
+</addon><addon id="script.batocera" name="Batocera Games" version="0.4.0" provider-name="PRAEst76">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
